@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Carlos Guadián</title>
+    <link>https://carlosguadian.github.io/categories/projects/index.xml</link>
+    <description>Recent content in Projects on Carlos Guadián</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <atom:link href="https://carlosguadian.github.io/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Proyectos</title>
+      <link>https://carlosguadian.github.io/projects/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>https://carlosguadian.github.io/projects/</guid>
+      <description>&lt;section id=&#34;projects&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;h3&gt;Proyectos&lt;/h3&gt;
+    &lt;div class=&#34;panel panel-default&#34;&gt;
+      &lt;div class=&#34;panel-body&#34;&gt;
+      &lt;h5&gt;
+        &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;strong&gt;&lt;a href=&#34;#&#34;&gt;Análisis de Datos de Redes Sociales&lt;/a&gt;&lt;/strong&gt;
+        - Materiales para el módulo de Análisis de Datos de Redes Sociales, impartido por el IBOD (Iniciativa Barcelona Open Data)
+      &lt;/h5&gt;
+
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
