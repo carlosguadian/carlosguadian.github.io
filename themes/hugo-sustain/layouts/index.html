@@ -1,0 +1,21 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+      <section id="about">
+        <div class="container">
+        <div class="avatar">
+          <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+        </div>
+        <h3>Soy <strong>{{ .Site.Params.author }}</strong>, un Analista de Datos y algo más.</h3>
+        <h3>Me encanta descubrir lo que hay debajo de unos buenos datos...</h3>
+        <h3>Mira alguno de los proyectos en los que estoy <a href="{{ .Site.BaseURL }}projects/"> trabajando</a>.</h3>
+        <h3>Para más info académica &amp; profesional <a href="https://linkedin.com/in/carlosguadian">CV</a>.</h3>
+        <h3>Puedes contactarme en <a href="http://twitter.com/{{ .Site.Params.Social.Twitter }}">@{{ .Site.Params.Social.Twitter }}</a> o vía <a href="mailto:{{ .Site.Params.Social.Email }}">email</a>.</h3>
+        {{ partial "social.html" . }}
+        </div>
+      </section>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>

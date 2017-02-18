@@ -1,0 +1,34 @@
+baseurl = "https://carlosguadian.github.io/"
+languageCode = "es-ES"
+title = "Carlos Guadián"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.png"
+  author = "Carlos Guadián"
+  description = "Recursos, código, inspiración..."
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "carlosguadian"
+  Email         = "carlosguadian@gmail.com"
+  Twitter       = "carlosguadian"
+  LinkedIn      = "carlosguadian"
+  Stackoverflow = "carlos-guadián"
+
+## Main Menu
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
