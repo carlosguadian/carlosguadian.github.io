@@ -22,66 +22,19 @@ body {
 /* Navbar
 -------------------------------------------------- */
 
-.navbar-static-top {
+.navbar {
   margin-bottom: 10px;
-}
-.navbar-default {
-  background-color: #ffffff;
-  border-color: #ffffff;
-}
-.navbar-default .navbar-brand {
-  color: #6b6b6b;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #6b6b6b;
-}
-.navbar-default .navbar-text {
-  color: #6b6b6b;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #6b6b6b;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #6b6b6b;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #6b6b6b;
   background-color: #ffffff;
 }
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #6b6b6b;
-  background-color: #ffffff;
-}
-.navbar-default .navbar-toggle {
-  border-color: #ffffff;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #ffffff;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #6b6b6b;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #6b6b6b;
-}
-.navbar-default .navbar-link {
+.navbar .navbar-brand,
+.navbar .nav-link {
   color: #6b6b6b;
 }
-.navbar-default .navbar-link:hover {
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus,
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
   color: #6b6b6b;
-}
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #6b6b6b;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #6b6b6b;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #6b6b6b;
-    background-color: #ffffff;
-  }
 }
 
 /* Custom page CSS
@@ -106,30 +59,32 @@ body {
  height: auto;
  max-width: 100%;
 }
-.panel-default h4 {
+.card h4 {
   text-align: left;
   line-height: 24px;
   font-size: 22px;
 }
-.panel-default h5 {
+.card h5 {
   text-align: left;
   line-height: 30px;
   font-size: 18px;
 }
-.panel-default h6 {
+.card h6 {
   font-size: 15px;
 }
-.panel-default h4 a, h5 a {
+.card h4 a,
+.card h5 a {
   color: #27A822;
 }
-.panel-default h4 a:hover, h5 a:hover {
+.card h4 a:hover,
+.card h5 a:hover {
   color: #267723;
 }
-.panel{
-  border-style: none;
+.card {
+  border: none;
 }
-.panel-body {
-  padding-top: -10px;
+.card-body {
+  padding-top: 0;
   text-align: left;
 }
 .social {
